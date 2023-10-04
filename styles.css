@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+/* Apply styles to the grid container to create a 2x2 grid */
+.holder {
+  display: grid; /* Set the holder as a grid container */
+  grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Create two equal rows */
+  width: 200px; /* Set the total size of the grid to 200px */
+  height: 200px; /* Set the total size of the grid to 200px */
+  grid-gap: 5px; /* Optional gap between grid items for spacing */
+}
+
+/* Style for grid items (items will be positioned automatically) */
+.item-1 {
+  background-color: red;
+}
+
+.item-2 {
+  background-color: blue;
+}
+
+.item-3 {
+  background-color: green;
+}
+
+.item-4 {
+  background-color: yellow;
+}
